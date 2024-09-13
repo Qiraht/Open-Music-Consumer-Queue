@@ -1,0 +1,28 @@
+{
+  "name": "rabbitmq-basic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/consumer.js",
+    "start:dev": "nodemon ./src/consumer.js",
+    "lint": "eslint ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "eslint": "^9.9.1",
+    "eslint-config-dicodingacademy": "^0.9.4",
+    "globals": "^15.9.0",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.15",
+    "pg": "^8.12.0"
+  }
+}
